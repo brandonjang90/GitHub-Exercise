@@ -74,6 +74,7 @@ header > h1 {
 .result {
     font-size: 30px;
     color; white;
+    font-family: "Luckiest Guy";
 }
 
 .result > p {
@@ -83,7 +84,7 @@ header > h1 {
 }
 
 .choices {
-    margin: 50px 0;
+    margin: 40px 0;
     text-align: center;
 }
 
@@ -93,4 +94,17 @@ header > h1 {
     margin: 0 20px;
     padding: 8px;
     display: inline-block;
+    transition: all 0.5s; ease;
+}
+
+.choice:hover {
+    cursor: pointer;
+    background: rgb(23, 98, 173);
+}
+
+#action-message {
+    text-align: center;
+    color: white;
+    font-family: "Luckiest Guy";
+    font-size: 20px;
 }
