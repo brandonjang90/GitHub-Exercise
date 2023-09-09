@@ -16,7 +16,6 @@ h1 {
     transition: color 1000ms;
 } */
 
-<link href="https://fonts.googleapis.com/css2?family=Bellefair&family=Rubik+Puddles&display=swap" rel="stylesheet">
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +23,7 @@ h1 {
 }
 
 body{
-    background-color: rgb(255, 217, 121);
+    background-color: rgb(16, 67, 119);
 
 }
 
@@ -35,19 +34,20 @@ header {
 header > h1 {
     color:rgb(0, 0, 0);
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-family: "Black Ops One"
 }
 
 .score-board {
-    margin: 20px auto;
+    margin: 30px auto;
     border: 3px solid white;
     border-radius: 5px;
     text-align: center;
     width: 200px;
     color: white;
-    font-size: 44px;
-    padding: 15px 20px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 48px;
+    padding: 20px 20px;
+    font-family: "Luckiest Guy";
     position: relative;
 }
 
@@ -55,8 +55,8 @@ header > h1 {
     background-color: rgb(210, 106, 85);
     color: white;
     font-size: 14px;
-    padding: 2px 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px 10px;
+    font-family: "Luckiest Guy"
 }
 
 #Player-Label{
@@ -69,5 +69,16 @@ header > h1 {
     position: absolute;
     top: 10px;
     right: -30px;
+}
+
+.result {
+    font-size: 30px;
+    color; white;
+}
+
+.result > p {
+    text-align: center;
+    font-weight: bold;
+    color: white
 }
 
